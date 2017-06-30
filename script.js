@@ -24,10 +24,31 @@ $(document).ready(function(){
   });
     
 })
+$(window).scroll(function() {
+  $(".slideanim").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+$(window).load(function() {
+  $(".slideanimload").each(function(){
+    var pos = $(this).offset().top;
+
+    var winTop = $(window).scrollTop();
+    if (pos < winTop + 600) {
+      $(this).addClass("slide");
+    }
+  });
+});
+
 setTimeout(function(){
         $("#dev").typed({
             strings: ["DEVELOPMENT"],
-            typeSpeed: 50, // typing speed
+            typeSpeed: 10, // typing speed
             backDelay: 250, // pause before backspacing
             loop: true, // loop on or off (true or false)
             loopCount: false, // number of loops, false = infinite
