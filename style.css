@@ -4,7 +4,7 @@ h2{
 }
 .navbar {
     margin-bottom: 0;
-    background-color: #f4511e;
+    background-color: black;
     z-index: 9999;
     border: 0;
     font-size: 12px !important;
@@ -18,8 +18,8 @@ h2{
 }
 
 .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #f4511e !important;
-    background-color: #fff !important;
+    
+    background-color: #353232 !important;
 }
 
 .navbar-default .navbar-toggle {
@@ -28,7 +28,7 @@ h2{
 }
 
 .jumbotron { 
-    background-color: #f4511e; /* Orange */
+    background-color: black; 
     color: #ffffff;
     padding: 238px 25px;
 }
@@ -221,4 +221,36 @@ h2{
 }
 #message a {
     font-family: cursive;
+}
+.slideanimload{visibility:hidden;}
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
 }
