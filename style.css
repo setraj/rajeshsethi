@@ -1,3 +1,7 @@
+h2{
+    font-family: initial !important;
+    font-size: 25px !important;
+}
 .navbar {
     margin-bottom: 0;
     background-color: #f4511e;
@@ -185,6 +189,7 @@
     letter-spacing: 0.5rem;
 }
 .desc{
+    background-color: #3a3a3a;
     padding-left: 10%;
     padding-right: 15%;
     padding-top: 1%;
@@ -209,4 +214,11 @@
     text-align: left;
     margin-bottom: 18px;
     color: #727272;
+}
+#about h4{
+    color: #767373;
+    font-family: initial !important;
+}
+#message a {
+    font-family: cursive;
 }
