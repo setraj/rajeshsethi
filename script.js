@@ -43,12 +43,13 @@ $(window).load(function() {
       $(this).addClass("slide");
     }
   });
+
 });
 
 setTimeout(function(){
         $("#dev").typed({
-            strings: ["DEVELOPMENT"],
-            typeSpeed: 10, // typing speed
+            strings: ["GET THINGS DONE BY MACHINE!!"],
+            typeSpeed: 1, // typing speed
             backDelay: 250, // pause before backspacing
             loop: true, // loop on or off (true or false)
             loopCount: false, // number of loops, false = infinite
