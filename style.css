@@ -187,6 +187,8 @@ h2{
 }
 #dev{
     letter-spacing: 0.5rem;
+    color: lawngreen;
+    font-weight: bolder;
 }
 .desc{
     background-color: #3a3a3a;
@@ -233,6 +235,9 @@ h2{
     -webkit-animation-duration: 1s;
     /* Make the element visible */
     visibility: visible; 
+}
+.techcolor{
+ color: aquamarine;
 }
 @keyframes slide {
     0% {
