@@ -56,4 +56,3 @@ setTimeout(function(){
             callback: function(){ } // call function after typing is done
         });
     }, 0);
-

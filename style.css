@@ -1,4 +1,4 @@
-h2{
+h2 {
     font-family: initial !important;
     font-size: 25px !important;
 }
@@ -13,12 +13,13 @@ h2{
     border-radius: 0;
 }
 
-.navbar li a, .navbar .navbar-brand {
+.navbar li a,
+.navbar .navbar-brand {
     color: #fff !important;
 }
 
-.navbar-nav li a:hover, .navbar-nav li.active a {
-    
+.navbar-nav li a:hover,
+.navbar-nav li.active a {
     background-color: #353232 !important;
 }
 
@@ -27,15 +28,15 @@ h2{
     color: #fff !important;
 }
 
-.jumbotron { 
-    background-color: black; 
+.jumbotron {
+    background-color: black;
     color: #ffffff;
     padding: 238px 25px;
 }
-.jumbotron h1{
+.jumbotron h1 {
     letter-spacing: 0.7rem;
 }
-.jumbotron p{
+.jumbotron p {
     letter-spacing: 1rem;
 }
 .thumbnail {
@@ -44,10 +45,10 @@ h2{
     /* margin-bottom: 20px; */
     /* line-height: 1.42857143; */
     /* background-color: #fff; */
-     border: 0 !important;
+    border: 0 !important;
     /* border-radius: 4px; */
     /* -webkit-transition: border .2s ease-in-out; */
-    -o-transition: border .2s ease-in-out;
+    -o-transition: border 0.2s ease-in-out;
     /* transition: border .2s ease-in-out; */
 }
 
@@ -77,11 +78,11 @@ h2{
     }
 }
 
-.projects{
+.projects {
     background-color: #363636;
     color: darkgray;
 }
-.contact h2{
+.contact h2 {
     color: black;
     font-weight: 300;
     font-size: 1.8em;
@@ -89,7 +90,7 @@ h2{
     letter-spacing: 3px;
     margin: 10px 0px 20px;
 }
-.contact a{
+.contact a {
     text-decoration: none;
     font-size: 1.4em;
     font-weight: 300;
@@ -109,20 +110,16 @@ h2{
     margin: 20px auto;
 }
 
-
-
-
-.footer{
+.footer {
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
     padding-top: 15px;
-    background-color: #ECECEC;
+    background-color: #ececec;
 }
 
-
-.footer ul{
+.footer ul {
     margin-bottom: 0px;
 }
 .footer ul li a {
@@ -135,36 +132,52 @@ h2{
     min-height: 45px;
     margin: 0 1px;
     /* padding: 0px 1px; */
-    position: relative
+    position: relative;
 }
 .fa {
     padding: 10px;
     font-size: 30px;
-   
+
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
 }
 .fa-facebook {
-  background: #3B5998;
-  color: white;
+    background: #3b5998;
+    color: white;
 }
 
 .fa-twitter {
-  background: #55ACEE;
-  color: white;
+    background: #55acee;
+    color: white;
 }
 .fa-google {
-  background: #dd4b39;
-  color: white;
+    background: #dd4b39;
+    color: white;
 }
 .fa-linkedin {
-  background: #007bb5;
-  color: white;
+    background: #007bb5;
+    color: white;
 }
-.fa-skype {
-  background: #00aff0;
-  color: white;
+.fa-medium {
+    background: white;
+    color: #00ab6c;
+}
+.fa-github {
+    background: white;
+    color: black;
+    /*color: #00ab6c;*/
+}
+.fa-instagram {
+    color: white;
+    background: radial-gradient(
+        circle at 30% 107%,
+        #fdf497 0%,
+        #fdf497 5%,
+        #fd5949 45%,
+        #d6249f 60%,
+        #285aeb 90%
+    );
 }
 .copyright {
     font-family: cursive;
@@ -174,41 +187,40 @@ h2{
     margin-top: 2px;
     float: right;
 }
-#workPlace1{
+#workPlace1 {
     height: 80px;
     width: 130px;
     margin: 5px;
-        
 }
-#workPlace2{
+#workPlace2 {
     height: 100px;
     width: 100px;
     margin: 5px;
 }
-#dev{
+#dev {
     letter-spacing: 0.5rem;
     color: lawngreen;
     font-weight: bolder;
 }
-.desc{
+.desc {
     background-color: #3a3a3a;
     padding-left: 10%;
     padding-right: 15%;
     padding-top: 1%;
     text-align: justify;
 }
-#skill_projects h3{
+#skill_projects h3 {
     text-align: initial;
     letter-spacing: 3px;
 }
-#skill_projects h2{
+#skill_projects h2 {
     background-color: #3a3a3a;
 }
-#skill_projects h1{
-   letter-spacing: 3px;
+#skill_projects h1 {
+    letter-spacing: 3px;
 }
-#skill_projects .skill{
-   width: 100%;
+#skill_projects .skill {
+    width: 100%;
     font-size: 1.2em;
     font-weight: 400;
     text-transform: uppercase;
@@ -217,45 +229,53 @@ h2{
     margin-bottom: 18px;
     color: #727272;
 }
-#about h4{
+#about h4 {
     color: #767373;
     font-family: initial !important;
 }
 #message a {
     font-family: cursive;
 }
-.slideanimload{visibility:hidden;}
-.slideanim {visibility:hidden;}
+.slideanimload {
+    visibility: hidden;
+}
+.slideanim {
+    visibility: hidden;
+}
 .slide {
     /* The name of the animation */
     animation-name: slide;
-    -webkit-animation-name: slide; 
+    -webkit-animation-name: slide;
     /* The duration of the animation */
-    animation-duration: 1s; 
+    animation-duration: 1s;
     -webkit-animation-duration: 1s;
     /* Make the element visible */
-    visibility: visible; 
+    visibility: visible;
 }
-.techcolor{
- color: aquamarine;
+.techcolor {
+    color: aquamarine;
 }
 @keyframes slide {
     0% {
         opacity: 0;
         transform: translateY(70%);
-    } 
+    }
     100% {
         opacity: 1;
         transform: translateY(0%);
-    } 
+    }
 }
 @-webkit-keyframes slide {
     0% {
         opacity: 0;
         -webkit-transform: translateY(70%);
-    } 
+    }
     100% {
         opacity: 1;
         -webkit-transform: translateY(0%);
     }
+}
+
+* {
+    box-sizing: border-box;
 }
